@@ -1,0 +1,14 @@
+#Project Log Day 1
+
+Since this is the first of the logs I will say I am keeping these most for self reference.
+
+I started this project about 2 weeks ago and have touched upon it here and there.  Since the project idea is rather large I have just really worked out the semantics
+and done a bunch of research.  But as of today I have obtained a raspberry pi, set in a order for the BMO parts which are being 3d printed in resin.  
+
+I will have to get the stuff to spray paint BMO later and the stickers that will go on him as well but that is for when I actually get there.
+
+As far as the raspberry pi I have assembled it, got it to turn on which considering that I know nothing is a success.  I have installed pyApps and got pyCharm running on 
+it.  However I am currently struggling to get python 3.6.0 which is needed for the project on there.
+
+As far as the pyCharm 3.6.0 program I am running on my computer.  I got it to recognize vocal input and spit out audio.  I think today I will try working on voice
+or accessing google.
