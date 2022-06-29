@@ -1,0 +1,8 @@
+I am starting this log just a few hours after the creation of the first one.  I feel like I made some great progress and added a bunch of features such as allowing the 
+user to play youtube videos, do a general search, grab information off of wikipedia all through voice activated commands.  
+
+The program runs infinetly which is good for 
+now because I technically need it to be always listening, much like a normal google home.  
+
+The next time I edit this log will probably be when I do the voice cloning part which sounds particularly hard yet somehow equally interesting so I will see where that 
+takes me.  
