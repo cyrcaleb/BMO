@@ -6,3 +6,5 @@ now because I technically need it to be always listening, much like a normal goo
 
 The next time I edit this log will probably be when I do the voice cloning part which sounds particularly hard yet somehow equally interesting so I will see where that 
 takes me.  
+
+The only thing I am particularly worried about right now besides actually building everything with the hardware, which sounds very scary, is being able to transfer everyhting smoothly over to the raspberry pi.  Baby steps :)
