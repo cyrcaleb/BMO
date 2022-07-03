@@ -1,0 +1,16 @@
+#Project Log Day 3
+
+The servos have arrived along with the speakers but I am still waiting on things such as the screen and the 3D parts.
+
+Something I might have to get in the future are some more circuit boards for the aservos and ports on BMO to work with the raspberry pi.
+
+Hopefully I am able to get everything to work with the pi but something I might have to consider is being able to hook up BMO to my desktop which I would also be fine
+with
+
+I have spent the last few days researching and trying many many methods of voice cloning and finally after many hours I have been able to find a singular method. However,
+this is done using the Anaconda terminal and to be completely honest it does not work well.  Not yet atleast.  
+
+I will continue tinkering with it until I can get it optimized.
+
+Worst case scenario, if the voice cloning does not work out I will just get clips from the show and use them for voice specific commands and for the stuff that reads off 
+of google, it will be the normal voice.
