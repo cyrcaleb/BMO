@@ -19,5 +19,7 @@ This is a huge project of mine that I am well aware will take a long time to com
 
 ![bmoParts](https://user-images.githubusercontent.com/90429575/178156009-56a71e19-22a1-451b-bfd6-90b864538390.jpg)
 
+### Voice Cloning: ###
 
+![voiceClones](https://user-images.githubusercontent.com/90429575/178159233-28c44760-1499-4ae7-9382-4c893aa86cca.jpg)
 
