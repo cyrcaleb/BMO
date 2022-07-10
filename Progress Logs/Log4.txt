@@ -1,0 +1,13 @@
+#Project Log Day 4
+
+The 3D printed parts have arrived.  From what I have seen the voice recognition software will not be able to work mainly because today's voice cloning software is 
+focussed around making voices sound human.
+
+The BMO voice is somewhat human but it has a pretty heavy accent and a lot of filters so the raw test audio is never clean enough to get the results needed.
+
+Because of this I have decided to drop the voice cloning idea and go with a much simpler alternative.  Voice cloning was fun and I am glad I got it to work to some 
+degree.  Perhaps I will be able to use it in the future.
+
+Instead I have gone with the idea of just using BMO's Voice for simple commands with generic lines such as saying "Now playing your video".
+
+To do this I have decided to pay a voice actor on Fiver to read out some scripted lines. 
