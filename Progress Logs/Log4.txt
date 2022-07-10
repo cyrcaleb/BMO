@@ -10,4 +10,7 @@ degree.  Perhaps I will be able to use it in the future.
 
 Instead I have gone with the idea of just using BMO's Voice for simple commands with generic lines such as saying "Now playing your video".
 
-To do this I have decided to pay a voice actor on Fiver to read out some scripted lines. 
+To do this I have decided to find voice actor on Fiver to read out some scripted lines. 
+
+So today I am script writing and finding the right artist.  I will also have to do some testing again to see if I can have visuals displayed the same time as audio is 
+playing.
