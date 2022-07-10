@@ -5,6 +5,8 @@ focussed around making voices sound human.
 
 The BMO voice is somewhat human but it has a pretty heavy accent and a lot of filters so the raw test audio is never clean enough to get the results needed.
 
+You can see the testing audio and cloned audio example in the Voice Cloning Folder to see exactly what I am talking about.
+
 Because of this I have decided to drop the voice cloning idea and go with a much simpler alternative.  Voice cloning was fun and I am glad I got it to work to some 
 degree.  Perhaps I will be able to use it in the future.
 
