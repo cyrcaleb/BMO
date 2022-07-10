@@ -12,3 +12,9 @@ I will also be putting this device inside a 3D Printed robot called BMO from adv
 Something I also want to add to this project is BMO's voice instead of the generic google output voice. In order to do this I will have to program voice cloning software and gather a library of BMO's voice to be analyze.
 
 This is a huge project of mine that I am well aware will take a long time to complete as I do not have the knowledge about voice cloning, rasberry pi's, or 3d printing.  But this is something that I am extremely passionate about and cannot wait to learn about on my own.
+
+#Project Update Photos
+
+3D Parts:
+
+![alt text](https://github.com/cyrcaleb/BMO/blob/3D-Printing/bmoParts.jpg?raw=true)
