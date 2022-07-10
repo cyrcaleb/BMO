@@ -1,0 +1,5 @@
+bmo-intro-adventure-time-distant-lands_rajGTddV.wav is the training audio for the voice clone.
+
+bmo_clone.wav is the output line "Hello, my name is BMO" created through the training audio.
+
+As you can see it is too far from the original voice to be used for my purposes.  Also voice cloning is very system intensive so even if I wanted to use this, it would not work with a raspberry pi.
