@@ -17,4 +17,4 @@ This is a huge project of mine that I am well aware will take a long time to com
 
 3D Parts:
 
-![alt text](https://github.com/cyrcaleb/BMO/blob/3D-Printing/bmoParts.jpg?raw=true)
+!(https://github.com/cyrcaleb/BMO/3D-Printing/bmoParts.jpg?raw=true)
