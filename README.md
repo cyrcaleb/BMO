@@ -13,7 +13,7 @@ Something I also want to add to this project is BMO's voice instead of the gener
 
 This is a huge project of mine that I am well aware will take a long time to complete as I do not have the knowledge about voice cloning, rasberry pi's, or 3d printing.  But this is something that I am extremely passionate about and cannot wait to learn about on my own.
 
-##Project Update Photos
+## Project Update Photos ##
 
 3D Parts:
 
