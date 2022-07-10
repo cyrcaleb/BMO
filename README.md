@@ -18,4 +18,7 @@ This is a huge project of mine that I am well aware will take a long time to com
 ### 3D Parts: ###
 
 ![bmoParts](https://user-images.githubusercontent.com/90429575/178156009-56a71e19-22a1-451b-bfd6-90b864538390.jpg)
-![bmo_parts_1](https://user-images.githubusercontent.com/90429575/178156236-318b9df2-0e92-40ae-a102-b74c3f1eae77.jpg)
+<p align="center">
+  ![bmo_parts_1](https://user-images.githubusercontent.com/90429575/178156236-318b9df2-0e92-40ae-a102-b74c3f1eae77.jpg)
+</p>
+
