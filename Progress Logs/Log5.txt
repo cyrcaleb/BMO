@@ -1,0 +1,18 @@
+#Project Log Day 5  7/13/2022
+
+The LCD screen has arrived which means I can now run test with the raspberry pi hooked up to the 8-inch screen, that is once I figure out how to configure them.  But the 
+good news is that the screen fits perfectly.
+
+Something I have also realized that I need to do is that I need to be able to create facial animations for BMO for every vocal command he has.  I have to do this because
+at the moment. I am unsure how to play voice commands and videos at the same time if they are separate files and not a youtube video.
+
+This means that I would have to make an mp3 file using the voice lines I get from the voice actor on fiver and the animations I need to create using some sort of
+software.  Where and how I create these animations is still an ongoing process.
+
+As far as progress.  I was finally able to add the last element I wanted to BMO.  I added a timer.  Ofcourse I couldve just done the timer where I do the voice command 
+and google shows up and does the timer.  But in order for that timer to stop early, the user would have to click on it.  Plus I personally do not want to deal with the
+ugly pop-up and would much rather have the alarm noise be BMO's voice.
+
+But as far as I can tell the timer works great and I'm glad I got it to work and still allow the user to take inputs while the timer is running.
+
+Hopefully by next Log I will have gotten progress with the animations or the screen.
