@@ -25,6 +25,6 @@ This is a huge project of mine that I am well aware will take a long time to com
 
 Voice Cloning was super interesting and hopefully I will be able to implement it in further projects.  For more info as to why I had to drop it for now, see progress log #4 and the voice cloning folder.
 
-![hardware](https://user-images.githubusercontent.com/90429575/178996312-850bcc71-e91f-45d8-93be-3eef0408f9bc.jpg)
+![hardware](https://user-images.githubusercontent.com/90429575/178997293-a2aa416e-d8e7-4e2a-b9fb-d328d596d03a.jpg)
 A picture of speakers, one of the servos, a raspberrry pi, and the 8 inch lcd screen that connects to the pi.  I put the pi in its case for now to reduce risk of damage.
 
