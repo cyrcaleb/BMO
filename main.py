@@ -3,6 +3,8 @@ import pyttsx3
 import pywhatkit
 import datetime
 import wikipedia
+from time import gmtime, strftime
+import threading as th
 import pyjokes
 import winsound #windows only to replay a file sound to a user
 
@@ -89,7 +91,15 @@ listener = sr.Recognizer()
 #talks back to user
 engine = pyttsx3.init()  #speaks to user
 voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[1].id)  #changes voices
+engine.setProperty('voice', voices[2].id)  #changes voices
+
+# prints valid voice channels
+# for voice in voices:
+#     print(voice, voice.id)
+#     engine.setProperty('voice', voice.id)
+#     engine.say("Hello World!")
+#     engine.runAndWait()
+#     engine.stop()
 
 def talk(text):
     engine.say(text)
@@ -114,11 +124,13 @@ def take_command():
                     command = command.replace('hey', '')
                 if 'pay' in command:
                     command = command.replace('pay', '')
-                print(command)
-                talk(command)
+                print(command) #i can comment this out once I am finished
+                talk(command)  #i can comment this out once I am finished
     except:
         run_alexa()
     return command
+
+
 
 
 def run_alexa():
@@ -134,6 +146,75 @@ def run_alexa():
         search = command.replace('search ', '')
         pywhatkit.search(search)
         run_alexa()
+    elif 'date' in command:
+        date = strftime("%a, %d %b %Y") #gets weekday, Day, month, and year
+        talk("Today's Date is " + date)
+    elif 'timer' in command:
+        timer = command.replace('set', '')
+        timer = timer.replace(' a ', '')
+        timer = timer.replace('timer', '')
+        timer = timer.replace('for', '')
+        timer = timer.replace('to', '')
+        holder = timer
+
+        print("Timer is set to " + holder)
+        talk("Timer is set to " + holder)
+
+
+        seconds = holder.replace('hours', '')
+        seconds = seconds.replace('hour', '')
+        seconds = seconds.replace('minutes', '')
+        seconds = seconds.replace('minute', '')
+        seconds = seconds.replace('and', '')
+        seconds = seconds.replace('seconds', '')
+        secondsArr = seconds.split(' ')
+        print(secondsArr)
+        if 'hour' in holder:
+            i= 0
+            while secondsArr[i] == '':
+                i+=1
+            hours = secondsArr[i]
+            print("Hours = " + hours)
+            secondsArr[i] = ''
+            firstholder = i
+        else:
+            hours = 0
+            firstholder = 0
+
+        if 'minutes' in holder:
+            i = firstholder+1
+            while secondsArr[i] == '':
+                i += 1
+            minutes = secondsArr[i] + secondsArr[i+1]
+            print("Minutes = " + minutes)
+            secondsArr[i] = ''
+            secondsArr[i+1] = ''
+            secondHolder = i+1
+        elif 'minute' in holder:
+            i = firstholder + 1
+            while secondsArr[i] == '':
+                i += 1
+            minutes = secondsArr[i] + secondsArr[i + 1]
+            print("Minutes = " + minutes)
+            secondsArr[i] = ''
+            secondHolder = i
+        else:
+            minutes = 0
+            secondHolder = 0
+
+        i = secondHolder
+        while secondsArr[i] == '':
+            i += 1
+        seconds = secondsArr[i]
+        print("Seconds = " + seconds)
+
+        total = int(seconds) + int(minutes)*60 + int(hours)*60*60
+        print(total)
+
+        def sctn():
+            talk("BEEP BEEP BEEP.  Time is up")
+        S = th.Timer(total, sctn)
+        S.start()
     elif 'time' in command:
         time = datetime.datetime.now().strftime('%I:%M %p') #use H instead of I for 24 hr time
         talk('Current time is ' + time)
@@ -145,8 +226,8 @@ def run_alexa():
         print(info)
         talk(info)
         run_alexa()
-#     elif 'tell me a joke' in command:
-#         talk(pyjokes.get_joke())
+    # elif 'tell me a joke' in command:
+    #     talk(pyjokes.get_joke())
     else:
         talk('Sorry I do not know that command')
     return
