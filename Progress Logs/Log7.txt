@@ -1,0 +1,20 @@
+#Project Log Day 7  7/17/2022
+
+Today I worked on some of the BMO circuitry, or atleast atempted to and finished up some small tasks.
+
+I was able to add blinking to my character, although due to the fact that BMO technically does not have eyes and only has an iris, if BMO blinks, the character eye 
+position will immediately revert back to its original state, which is fine, but just a tad bit annoying.
+
+Also, I changed the color of BMO slightly because it felt off to me.
+
+I was going to try to export a file with a voice line and animation that I liked, but I wanted to first finally test out the 8 inch lcd screen which I haven't touched,
+especially to see if BMO's face lined up with the borders of the screen correctly.
+
+However I found out that I am missing two crucial pieces, a powerbank which will provide power to the raspberry pi, and the driver board which connects to the lcd screen.
+
+So I ended up ordering those parts from amazon, along with the voice lines from fiver voice actor Blueburn67.
+
+If I can't do anything else today I might try to see if I can use the raspberry pi and actually run the program I have created on it.
+
+A less than ideal day of work and starting to hit a lot more bumps, which is expected since I went into all of this with absolutely 0 knowledge about pi's and circuit 
+boards.
