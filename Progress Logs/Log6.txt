@@ -1,0 +1,23 @@
+#Project Log Day 6  7/17/2022
+
+Today I decided to work on facial animations for BMO using adobe character animation.
+
+To do this I first had to create my character in photoshop and then transfer the files over to the character animation.  From here I could select specific features of
+BMO I created and rig them to certain facial features.
+
+With the use of my camera, BMO was now able to copy the movements I made with my eyes and the sounds I created with my mouth.  
+
+Eye position was rather simple as they are just dot's that do not change that much besides blinking, which is a feature I still need to add.  
+
+Mouthing on the other hand was very different.  The way it is set up, they allow up to 13 possible mouth positions to act as 13 basic sounds one can make with their 
+mouth such as the basic sounds created from the letters "o", "a", and "f".
+
+This entire process took a very very long time especially since I have never touched any adobe products. However, after spending all this time I would say that I am
+much more confident in my skills in using these adobe products, and although they did not feel user friendly at all, it did feel like I had a ton of freedom to do exactly
+what I needed.
+
+I am super happy with how the animation turned out, I just need to add blinking, make the lip syncing work with the incoming audio files the voice actor sends me, and 
+then find a way to export these files.
+
+As far as bad news, I have realized that I am one servo since the company I ordered from only sent me one of the two I orderd, but as long as I get the servo in the
+next few weeks this shouldn't be a setback what-so-ever.
