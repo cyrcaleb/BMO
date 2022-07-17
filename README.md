@@ -7,7 +7,7 @@ The main goal of this project is to first create a program using python to essen
 
 I will also be putting this device inside a 3D Printed robot called BMO from adventure time:
 - The robot will have seros to control the arms
-- The robot BMO will also have a 10-inch LCD screen that will be able to present different BMO facial features and even be able to play little short snippets of video
+- The robot BMO will also have a 8-inch LCD screen that will be able to present different BMO facial features and even be able to play little short snippets of video
 
 Something I also want to add to this project is BMO's voice instead of the generic google output voice. In order to do this I will have to program voice cloning software and gather a library of BMO's voice to be analyze.
 
