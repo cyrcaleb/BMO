@@ -29,3 +29,5 @@ Voice Cloning was super interesting and hopefully I will be able to implement it
 ![hardware1](https://user-images.githubusercontent.com/90429575/178997726-8ee9fed6-fdaf-4b4c-8bc3-2d47864592c9.jpg)
 A picture of speakers, one of the servos, a raspberrry pi, and the 8 inch lcd screen that connects to the pi.  I put the pi in its case for now to reduce risk of damage.
 
+### Active Animation: ###
+![BMO_animation_process](https://user-images.githubusercontent.com/90429575/179384940-0c90b462-60b4-4351-a3fc-e406c39fa130.png)
