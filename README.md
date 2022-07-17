@@ -31,3 +31,5 @@ A picture of speakers, one of the servos, a raspberrry pi, and the 8 inch lcd sc
 
 ### Active Animation: ###
 ![BMO_animation_process](https://user-images.githubusercontent.com/90429575/179384940-0c90b462-60b4-4351-a3fc-e406c39fa130.png)
+Here I am using Adobe Character animation along with adobe photoshop to create my character.  The character copies eye movements I create and even the sounds I make
+with my mouth.  See log #5 for more information.
