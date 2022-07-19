@@ -1,3 +1,5 @@
+import sys
+
 import speech_recognition as sr  #microphone speech recognition
 import pyttsx3
 import pywhatkit
@@ -5,16 +7,38 @@ import datetime
 import wikipedia
 from time import gmtime, strftime
 import threading as th
+from threading import Event
+import os
+import time
+from msvcrt import getch
 import pyjokes
 import winsound #windows only to replay a file sound to a user
 
 import sounddevice as sd   #record audio from microphone and store it in NumPy array
+from Tools.scripts.treesync import raw_input
 from scipy.io.wavfile import write #write onto a file
 
 import multiprocessing
 
+#Plays mp4 videoo
+class Video(object):
+    def __init__(self,path):
+        self.path = path
 
-import cv2  #for video files
+    def play(self):
+        from os import startfile
+        startfile(self.path)
+
+class Movie_MP4(Video):
+    type = "MP4"
+
+movie = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\FishScene_1_Trim.mp4")
+# if raw_input("Press enter to play, anything else to exit") == '':
+#     movie.play()
+# while True:
+#     movie.play()
+#     time.sleep(5)
+
 
 #imports a mp4 video and plays it without sound
 # vid = cv2.VideoCapture('H:\\BMO POC\\GOFjoji.mp4')
@@ -127,7 +151,14 @@ def take_command():
                 print(command) #i can comment this out once I am finished
                 talk(command)  #i can comment this out once I am finished
     except:
-        run_alexa()
+        #run_alexa()
+        try:
+            while True:
+                movie.play()
+                time.sleep(5)
+        except KeyboardInterrupt:
+            run_alexa()
+            pass
     return command
 
 
@@ -141,14 +172,18 @@ def run_alexa():
         song = command.replace('play', '')
         talk('playing' + song)
         pywhatkit.playonyt(song)
-        run_alexa()
+        cycle()
+    elif 'stop' in command:
+        os.system("taskkill /im chrome.exe /f")
+        cycle()
     elif 'search' in command:
         search = command.replace('search ', '')
         pywhatkit.search(search)
-        run_alexa()
+        cycle()
     elif 'date' in command:
         date = strftime("%a, %d %b %Y") #gets weekday, Day, month, and year
         talk("Today's Date is " + date)
+        cycle()
     elif 'timer' in command:
         timer = command.replace('set', '')
         timer = timer.replace(' a ', '')
@@ -215,22 +250,70 @@ def run_alexa():
             talk("BEEP BEEP BEEP.  Time is up")
         S = th.Timer(total, sctn)
         S.start()
+        cycle()
     elif 'time' in command:
-        time = datetime.datetime.now().strftime('%I:%M %p') #use H instead of I for 24 hr time
-        talk('Current time is ' + time)
-        print(time)
-        run_alexa()
+        curtime = datetime.datetime.now().strftime('%I:%M %p') #use H instead of I for 24 hr time
+        talk('Current time is ' + curtime)
+        print(curtime)
+        #run_alexa()
+        cycle()
     elif 'what is' or 'who is' or "what are" or "who are" in command:
         info = wikipedia.summary(command)
         print(command)
         print(info)
         talk(info)
-        run_alexa()
+        #run_alexa()
+        cycle()
     # elif 'tell me a joke' in command:
     #     talk(pyjokes.get_joke())
+        # try:
+        #         while True:
+        #             movie.play()
+        #             time.sleep(5)
+        #     except KeyboardInterrupt:
+        #         run_alexa()
+        #     pass
     else:
         talk('Sorry I do not know that command')
+        cycle()
     return
 
-while True:
-    run_alexa()
+# while True:
+#     run_alexa()
+
+
+# exit = Event()
+
+# def quit(signo, _frame):
+#     print("Interrupted by %d, shutting down" % signo)
+#     run_alexa()
+#     # exit.set()
+
+# def main():
+#     while not exit.is_set():
+#       movie.play()
+#       exit.wait(5)
+#     print("All done!")
+# if __name__ == '__main__':
+#     import signal
+#     for sig in ('TERM', 'BREAK', 'INT'):
+#         signal.signal(getattr(signal, 'SIG' + sig), quit)
+
+#     main()
+
+def cycle():
+    try:
+        while True:
+            import time
+            movie.play()
+            time.sleep(5)
+    except KeyboardInterrupt:
+        run_alexa()
+        pass
+
+cycle()
+
+
+
+
+
