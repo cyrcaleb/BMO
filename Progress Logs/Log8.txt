@@ -1,8 +1,8 @@
-#Project Log Day 7  7/18/2022
+#Project Log Day 8  7/19/2022
 
 Today I got a lot done while simultaneous getting not that much done. 
 
-I spent a huge amount of time researching, attempting, and failing to do one small but might task.
+I spent a huge amount of time researching, attempting, and failing to do one small but mighty task.
 
 So essentially when BMO is IDLE, I would like to have a short 5 - 15 second idle animation where BMO occasional looks around or blinks and I wanted to have it so that
 BMO would only start listening to you if you pressed one of the buttons on him.
@@ -16,5 +16,5 @@ inside of the command terminal.
 
 So just incase I have programmed a backup so that it runs continuously and listens every 5 or so seconds which is easily adjustable.
 
-Once again, a small but necessary task was completed today.  It took extremely long but I am super super happy with how it came out and it feel so rewarding to have 
+Once again, a small but necessary task was completed today.  It took extremely long but I am super super happy with how it came out and it feels so rewarding to have 
 completed it, even if it took a while. 
