@@ -1,0 +1,20 @@
+#Project Log Day 7  7/18/2022
+
+Today I got a lot done while simultaneous getting not that much done. 
+
+I spent a huge amount of time researching, attempting, and failing to do one small but might task.
+
+So essentially when BMO is IDLE, I would like to have a short 5 - 15 second idle animation where BMO occasional looks around or blinks and I wanted to have it so that
+BMO would only start listening to you if you pressed one of the buttons on him.
+
+I thought this would be a rather simple task but I couldn't have been more wrong.  I went through tons of documentaion about how to play an mp4 file and about the signal 
+import to eventually get this thing to work.
+
+It works exactly as intended by continuously playing the mp4 file, even when BMO starts listening to the user, and the lisenting process begins when the user presses
+CONTROL + C in the terminal. I am a little worried about this as it means when I give BMO a button, it will have to press CONTROL + C at the same time and also do this
+inside of the command terminal.
+
+So just incase I have programmed a backup so that it runs continuously and listens every 5 or so seconds which is easily adjustable.
+
+Once again, a small but necessary task was completed today.  It took extremely long but I am super super happy with how it came out and it feel so rewarding to have 
+completed it, even if it took a while. 
