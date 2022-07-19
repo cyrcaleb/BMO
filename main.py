@@ -1,5 +1,4 @@
 import sys
-
 import speech_recognition as sr  #microphone speech recognition
 import pyttsx3
 import pywhatkit
@@ -152,13 +151,7 @@ def take_command():
                 talk(command)  #i can comment this out once I am finished
     except:
         #run_alexa()
-        try:
-            while True:
-                movie.play()
-                time.sleep(5)
-        except KeyboardInterrupt:
-            run_alexa()
-            pass
+        cycle()
     return command
 
 
@@ -302,14 +295,23 @@ def run_alexa():
 #     main()
 
 def cycle():
-    try:
-        while True:
-            import time
-            movie.play()
-            time.sleep(5)
-    except KeyboardInterrupt:
-        run_alexa()
-        pass
+    #FOR BUTTON (CONTROL + C)
+    # try:
+    #     while True:
+    #         import time
+    #         movie.play()
+    #         time.sleep(5)
+    # except KeyboardInterrupt:
+    #     run_alexa()
+    #     pass
+
+    #WITHOUT BUTTON
+    while True:
+        import time
+        movie.play()
+        time.sleep(4)
+        run_alexa()   # Note this only calls run_alexa() every 5 seconds
+  
 
 cycle()
 
