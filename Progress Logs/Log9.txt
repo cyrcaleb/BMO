@@ -1,0 +1,34 @@
+#Project Log Day 9  7/20/2022
+
+Today I recieved the voice clips from the artist on fiver.  They came out pretty good, only one of them has to be redone.  I thought the audio itself was pretty decent
+and were close to the original bmo voice.
+
+But BMO in the show has this kind of monotone-ish voice with some filters over the voice that make the character sound cloudy or a tad more like a robot, so I hopped into
+BandLabs and messed around with voice tones for quite a bit until I found a sound I was happy with.
+
+Both of these mp3 files along with BMO reference audio can be found in the "MP3 and MP4 files" Folder.
+
+From here I uploaded the edited audio to Adobe Character Animator and had it analyze the audio and create the animation that sync with the mouth.
+
+They were far from perfect so I changed most of the animation frames which took quite a bit of time as I had to match every sound with 1 of 13 options, and then change 
+their lengths accordingly to how long they were being said.
+
+But after it came out pretty good and looked rather realistic. 
+
+After this I decided to record the eye animations which included blinking and eye movements.  Instead of controlling the eye movements with my eyes, which is quite 
+straining on your eyes if done to long, I switched over to controlling them with the arrow keys on my keyboard.  I kept blinking to still be controlled with my face as it
+looked much more natural this way.
+
+This took quite a bit of takes but I would say I am extremely happy with the results of this as well.
+
+After I decided to record an idle animation for BMO which is about 45 seconds long.  This just consisted of various eye movements that felt more lively and true to BMO's
+playful character.
+
+Currently I have an big mp4 file that contains all the BMO voice lines and animations.  Hopefully by the end of the day I will be able to edit all these down into their
+own separate clips.
+
+Moreover, my second servo, power adapter, and power bank have all arrived.  
+
+A truly amazing day of progress matched with perfect timing.
+
+Perhaps tommorrow I will be able to test out the 8-inch lcd screen with these animations.
