@@ -2,9 +2,15 @@ Here I have stored all the mp4 files created in adobe with character animation a
 
 They are each 800 by 600 format videos so they will fit perfectly to the smaller monitor.
 
-I have an idle animation for BMO resting, I might add a second IDLE animation but I am unsure at the moment.
+I have an idle animation for BMO when he is not taking inputs from the user, I might add a second IDLE animation but I am unsure at the moment.
 
 Additionally, I have the original BMO audio I received from the fiver voice artist, and the edited verison I have created from it.
+
+For reference, I have included an example of what real BMO sounds like from the show.
+
+
+
+Real Reference Audio From Adventure Time:  adventure-time-grasslands-best-of-bmo-cartoon-network_YJogF3XA.mp3
 
 Original Fiver Artist Audio:   BMO calebcyr427.mp3
 
