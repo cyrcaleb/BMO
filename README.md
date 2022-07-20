@@ -33,3 +33,7 @@ A picture of speakers, one of the servos, a raspberrry pi, and the 8 inch lcd sc
 ![BMO_animation_process](https://user-images.githubusercontent.com/90429575/179384940-0c90b462-60b4-4351-a3fc-e406c39fa130.png)
 Here I am using Adobe Character animation along with adobe photoshop to create my character.  The character copies eye movements I create and even the sounds I make
 with my mouth.  See log #6 for more information.
+
+### Audio Edit: ###
+![unknown](https://user-images.githubusercontent.com/90429575/180095302-20e87bac-f883-43bd-a9dc-43721a5884c9.png)
+Using BandLab to edit the original BMO audio sent to me by the fiver artist.  See MP3 & MP4 Files folder for more on the audio.  See Progress Log #9 for more info on the process of creating the BMO animations using the audio.
