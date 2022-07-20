@@ -36,4 +36,5 @@ with my mouth.  See log #6 for more information.
 
 ### Audio Edit: ###
 ![Bandlab](https://user-images.githubusercontent.com/90429575/180095302-20e87bac-f883-43bd-a9dc-43721a5884c9.png)
+
 Using BandLab to edit the original BMO audio sent to me by the fiver artist.  See MP3 & MP4 Files folder for more on the audio.  See Progress Log #9 for more info on the process of creating the BMO animations using the audio.
