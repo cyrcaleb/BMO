@@ -16,9 +16,9 @@ Original Fiver Artist Audio:   BMO calebcyr427.mp3
 
 Edited Audio:  BMO_Audio_2.mp3
 
-Idle BMO Animation:  IdleBMO.mp4
+Idle BMO Animation:  IdleResize.mp4
 
-"Playing your video":  playingYourVideo.mp4
+"Playing your video":  playingVid.mp4
 
 "BMO's favorite song is "Everything Stays":  favSong.mp4
 
@@ -28,10 +28,10 @@ Idle BMO Animation:  IdleBMO.mp4
 
 "BMO is short for 'Be More' ":  beMore.mp4
 
-"Alarm is set for T-minus (timer length):  t-minus.mp4
+"Alarm is set for T-minus (timer length):  tMinus.mp4
 
-"BEEP BEEP BEEP. Time is Up":  BEEP.mp4
+"BEEP BEEP BEEP. Time is Up":  beep.mp4
 
-"Today's Date is" (Today's Date):  todaysDate.mp4
+"Today's Date is" (Today's Date):  date.mp4
 
-"Current time is" (Current Time):  currentTime.mp4
+"Current time is" (Current Time):  curTime.mp4
