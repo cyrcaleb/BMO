@@ -2,20 +2,18 @@
 
 It is currently the same day as the last project log but I got so much done today that I felt this portion deserved its own section.
 
-After recieving the adapter for the driver board.  I was able to easily assemble it and connect it to my pc and use the power bank to supply it with power.
+After recieving the adapter for the driver board.  I was able to easily assemble the LCD screen, connect it to my pc, and use the power bank to power the driver board.
 
 Initially I tried to run the files I had edited down but they were not the correct size, and did not fit the dimensions perfectly.  I had thought the resolution of the 
 screen would be 800 by 600.  But I was wrong.
 
-The actual resolution was 1024 by 768.  This meant that I had to go back, re-record the idle and voice line animation, with a newly resized character.
+The actual resolution was 1024 by 768.  This meant that I had to go back, re-record the idle and active voice line animation, all with a newly resized character.
 
 This, which is starting to become a theme around here, took very long.
 
-But, more pleasantly becoming a theme around here, after resizing the videos and editing the the clips to size.  They played perfectly and filled up the entire screen as 
-intended.
+But after resizing the videos and editing the clips to size.  They played perfectly and filled up the entire screen as intended.
 
-I really feel like I got about 20 percent of the project done in about one day which feels great.  Tomorrow I plan to work on adding the mp4 into the program so that
-they play when needed.
+I really feel like I got about 20 percent of the project done in about one day which feels great.  Tomorrow I plan to work on adding the mp4 files into the program so that they play when needed.
 
 After that I can start dealing with the servos and speakers!  But if I wanted a desktop version of BMO, which I might switch to for conveniance, I would really just have
 to paint BMO and start assembly.
