@@ -42,7 +42,7 @@ Using BandLab to edit the original BMO audio sent to me by the fiver artist.  Se
 
 ### LCD Screen Success: ### 
 Photo  | Description
------------------- | -------------
+| :---: | :---:
 ![20220720_223912](https://user-images.githubusercontent.com/90429575/180118750-d78b3a3b-c2bc-407e-ae01-88d4ba0cd31e.jpg)  | BMO's MP4 videos playing on the LCD screen which is currently hooked up to my pc.
 
 
