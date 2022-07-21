@@ -48,3 +48,29 @@ I was able to successfully setup the LCD screen and connect it to my pc.  From t
 `etc` | Long explanation
 
 I was able to successfully setup the LCD screen and connect it to my pc.  From there I was able to play the all the BMO mp4 files that contained both the BMO face animations and the BMO voice lines!
+
+|Name|Value|
+|----|---------|
+|<img width=200/>|<img width=500/>|
+
+<style>
+table th:first-of-type {
+    width: 10%;
+}
+table th:nth-of-type(2) {
+    width: 10%;
+}
+table th:nth-of-type(3) {
+    width: 50%;
+}
+table th:nth-of-type(4) {
+    width: 30%;
+}
+</style>
+
+
++---------+---------+---------+----------+
+| Header1 | header2 | header3 | header4  |
++---------+---------+---------+----------+
+| Bar     | bar     | bar     | bar      |
++---------+---------+---------+----------+
