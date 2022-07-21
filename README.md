@@ -39,7 +39,8 @@ with my mouth.  See log #6 for more information.
 
 Using BandLab to edit the original BMO audio sent to me by the fiver artist.  See MP3 & MP4 Files folder for more on the audio.  See Progress Log #9 for more info on the process of creating the BMO animations using the audio.
 
-### LCD Screen Success: ###
-![20220720_223912](https://user-images.githubusercontent.com/90429575/180118750-d78b3a3b-c2bc-407e-ae01-88d4ba0cd31e.jpg)
 
-I was able to successfully setup the LCD screen and connect it to my pc.  From there I was able to play the all the BMO mp4 files that contained both the BMO face animations and the BMO voice lines!  
+### LCD Screen Success: ###
+Left aligned Header |  Center aligned Header
+| :---: | :---:
+![20220720_223912](https://user-images.githubusercontent.com/90429575/180118750-d78b3a3b-c2bc-407e-ae01-88d4ba0cd31e.jpg)  | I was able to successfully setup the LCD screen and connect it to my pc.  From there I was able to play the all the BMO mp4 files that contained both the BMO face animations and the BMO voice lines! 
