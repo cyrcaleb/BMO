@@ -1,5 +1,6 @@
 import sys
-import speech_recognition as sr  #microphone speech recognition
+
+import speech_recognition as sr  # microphone speech recognition
 import pyttsx3
 import pywhatkit
 import datetime
@@ -11,27 +12,30 @@ import os
 import time
 from msvcrt import getch
 import pyjokes
-import winsound #windows only to replay a file sound to a user
+import winsound  # windows only to replay a file sound to a user
 
-import sounddevice as sd   #record audio from microphone and store it in NumPy array
+import sounddevice as sd  # record audio from microphone and store it in NumPy array
 from Tools.scripts.treesync import raw_input
-from scipy.io.wavfile import write #write onto a file
+from scipy.io.wavfile import write  # write onto a file
 
 import multiprocessing
 
-#Plays mp4 videoo
+
+# Plays mp4 videoo
 class Video(object):
-    def __init__(self,path):
+    def __init__(self, path):
         self.path = path
 
     def play(self):
         from os import startfile
         startfile(self.path)
 
+
 class Movie_MP4(Video):
     type = "MP4"
 
-movie = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\FishScene_1_Trim.mp4")
+
+movie = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\IdleResize.mp4")
 # if raw_input("Press enter to play, anything else to exit") == '':
 #     movie.play()
 # while True:
@@ -39,7 +43,7 @@ movie = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\FishScene_1_Trim.mp4")
 #     time.sleep(5)
 
 
-#imports a mp4 video and plays it without sound
+# imports a mp4 video and plays it without sound
 # vid = cv2.VideoCapture('H:\\BMO POC\\GOFjoji.mp4')
 #
 # if (vid.isOpened() == False):
@@ -61,27 +65,19 @@ movie = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\FishScene_1_Trim.mp4")
 # vid.release()
 # cv2.destroyAllWindows()
 
- ########
+########
 
 
 # filename = 'GOFjoji.wav'  # Assign file name
 # winsound.PlaySound(filename, winsound.SND_FILENAME) #play sound
 
 
-
-
-#prints out all stereo mixers  (currently index 4 for headset speakers)
+# prints out all stereo mixers  (currently index 4 for headset speakers)
 # for i in range(p.get_device_count()):
 #     print(p.get_device_info_by_index(i))
 
 
-
-
-
-
-
-
-#create an audio File from microphone
+# create an audio File from microphone
 # fs = 44100 # Sample rate
 # seconds = 5 #Duration of recording
 #
@@ -91,13 +87,10 @@ movie = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\FishScene_1_Trim.mp4")
 # write('output.wav', fs, myrecording) #save as WAV file
 #######
 
-#play a wav file back to user
+# play a wav file back to user
 # filename = 'output.wav'
 # winsound.PlaySound(filename, winsound.SND_FILENAME)
 #######
-
-
-
 
 
 listener = sr.Recognizer()
@@ -111,10 +104,11 @@ listener = sr.Recognizer()
 ########
 
 
-#talks back to user
-engine = pyttsx3.init()  #speaks to user
+# talks back to user
+engine = pyttsx3.init()  # speaks to user
 voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[2].id)  #changes voices
+engine.setProperty('voice', voices[2].id)  # changes voices
+
 
 # prints valid voice channels
 # for voice in voices:
@@ -127,12 +121,13 @@ engine.setProperty('voice', voices[2].id)  #changes voices
 def talk(text):
     engine.say(text)
     engine.runAndWait()
-    #engine.say("Where is Fin and Jake")
-    #engine.runAndWait()  #runs the rest of the program
+    # engine.say("Where is Fin and Jake")
+    # engine.runAndWait()  #runs the rest of the program
+
+
 #########
 
 def take_command():
-
     # gets audio from user microphone and print out what they said
     try:
         with sr.Microphone() as source:
@@ -142,23 +137,20 @@ def take_command():
             command = command.lower()
             if "bmo" in command:
                 if 'bmo' in command:
-                    command = command.replace('bmo ', '') #takes out bmo for google seraches
+                    command = command.replace('bmo ', '')  # takes out bmo for google seraches
                 if 'hey' in command:
                     command = command.replace('hey', '')
                 if 'pay' in command:
                     command = command.replace('pay', '')
-                print(command) #i can comment this out once I am finished
-                talk(command)  #i can comment this out once I am finished
+                print(command)  # i can comment this out once I am finished
+                talk(command)  # i can comment this out once I am finished
     except:
-        #run_alexa()
-        cycle()
+        run_alexa()
+        # cycle()
     return command
 
 
-
-
 def run_alexa():
-
     command = take_command()
 
     if 'play' in command:
@@ -174,7 +166,7 @@ def run_alexa():
         pywhatkit.search(search)
         cycle()
     elif 'date' in command:
-        date = strftime("%a, %d %b %Y") #gets weekday, Day, month, and year
+        date = strftime("%a, %d %b %Y")  # gets weekday, Day, month, and year
         talk("Today's Date is " + date)
         cycle()
     elif 'timer' in command:
@@ -188,7 +180,6 @@ def run_alexa():
         print("Timer is set to " + holder)
         talk("Timer is set to " + holder)
 
-
         seconds = holder.replace('hours', '')
         seconds = seconds.replace('hour', '')
         seconds = seconds.replace('minutes', '')
@@ -198,9 +189,9 @@ def run_alexa():
         secondsArr = seconds.split(' ')
         print(secondsArr)
         if 'hour' in holder:
-            i= 0
+            i = 0
             while secondsArr[i] == '':
-                i+=1
+                i += 1
             hours = secondsArr[i]
             print("Hours = " + hours)
             secondsArr[i] = ''
@@ -210,14 +201,14 @@ def run_alexa():
             firstholder = 0
 
         if 'minutes' in holder:
-            i = firstholder+1
+            i = firstholder + 1
             while secondsArr[i] == '':
                 i += 1
-            minutes = secondsArr[i] + secondsArr[i+1]
+            minutes = secondsArr[i] + secondsArr[i + 1]
             print("Minutes = " + minutes)
             secondsArr[i] = ''
-            secondsArr[i+1] = ''
-            secondHolder = i+1
+            secondsArr[i + 1] = ''
+            secondHolder = i + 1
         elif 'minute' in holder:
             i = firstholder + 1
             while secondsArr[i] == '':
@@ -236,40 +227,42 @@ def run_alexa():
         seconds = secondsArr[i]
         print("Seconds = " + seconds)
 
-        total = int(seconds) + int(minutes)*60 + int(hours)*60*60
+        total = int(seconds) + int(minutes) * 60 + int(hours) * 60 * 60
         print(total)
 
         def sctn():
             talk("BEEP BEEP BEEP.  Time is up")
+
         S = th.Timer(total, sctn)
         S.start()
         cycle()
     elif 'time' in command:
-        curtime = datetime.datetime.now().strftime('%I:%M %p') #use H instead of I for 24 hr time
+        curtime = datetime.datetime.now().strftime('%I:%M %p')  # use H instead of I for 24 hr time
         talk('Current time is ' + curtime)
         print(curtime)
-        #run_alexa()
+        # run_alexa()
         cycle()
     elif 'what is' or 'who is' or "what are" or "who are" in command:
         info = wikipedia.summary(command)
         print(command)
         print(info)
         talk(info)
-        #run_alexa()
+        # run_alexa()
         cycle()
     # elif 'tell me a joke' in command:
     #     talk(pyjokes.get_joke())
-        # try:
-        #         while True:
-        #             movie.play()
-        #             time.sleep(5)
-        #     except KeyboardInterrupt:
-        #         run_alexa()
-        #     pass
+    # try:
+    #         while True:
+    #             movie.play()
+    #             time.sleep(5)
+    #     except KeyboardInterrupt:
+    #         run_alexa()
+    #     pass
     else:
         talk('Sorry I do not know that command')
         cycle()
     return
+
 
 # while True:
 #     run_alexa()
@@ -295,7 +288,7 @@ def run_alexa():
 #     main()
 
 def cycle():
-    #FOR BUTTON (CONTROL + C)
+    # FOR BUTTON (CONTROL + C)
     # try:
     #     while True:
     #         import time
@@ -305,17 +298,19 @@ def cycle():
     #     run_alexa()
     #     pass
 
-    #WITHOUT BUTTON
+    # WITHOUT BUTTON
     while True:
         import time
         movie.play()
-        time.sleep(4)
-        run_alexa()   # Note this only calls run_alexa() every 5 seconds
-  
+        for i in range(15):
+            time.sleep(3)
+            run_alexa()
+       
+            
+        
+        
+            
+        
+
 
 cycle()
-
-
-
-
-
