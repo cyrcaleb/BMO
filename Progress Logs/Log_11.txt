@@ -1,0 +1,13 @@
+#Project Log Day 11  7/24/2022
+
+I've made some progress by adding two more animations into the mix and I have finally managed to add them all to the program.
+
+I also managed to figure out a way to get the 46 second idle animation to run while taking in user inputs simultaneous.  This is something that took quite a bit as
+the idle animation I had used prior was only about 4 seconds long so it did not have to constantly be taking user input while the file was running.
+
+Im feeling a little burnt out and I have finals this week so most of my focus will be going towards that and also taking a little break. 
+
+I need to start researching exactly what I need to get the speakers and servos to work along with what nails and inserts I need.
+
+I might take a week off of this project just to research and focus on school work but I should be back and ready to make some serious progress and hopefully be able to 
+get the spray painting done before I have to leave.
