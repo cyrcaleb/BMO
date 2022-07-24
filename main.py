@@ -126,6 +126,10 @@ def talk(text):
 
 
 #########
+def playIdle():
+    voiceLine = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\IdleResize.mp4")
+    voiceLine.play()
+    time.sleep(41)
 
 def take_command():
     # gets audio from user microphone and print out what they said
@@ -142,32 +146,53 @@ def take_command():
                     command = command.replace('hey', '')
                 if 'pay' in command:
                     command = command.replace('pay', '')
-                print(command)  # i can comment this out once I am finished
-                talk(command)  # i can comment this out once I am finished
+                #print(command)  # i can comment this out once I am finished
+                #talk(command)  # i can comment this out once I am finished
+            else:
+                run_alexa()
     except:
-        run_alexa()
-        # cycle()
+        return 0
     return command
 
 
 def run_alexa():
-    command = take_command()
+    for i in range(6):
+        command = take_command()
+        if command == 0 and i == 5:
+            cycle()
+        if command != 0:
+            break
 
     if 'play' in command:
         song = command.replace('play', '')
-        talk('playing' + song)
+        # talk('playing' + song)
+        voiceLine = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\playingVid.mp4")
+        voiceLine.play()
+        time.sleep(1.5)
         pywhatkit.playonyt(song)
         cycle()
-    elif 'stop' in command:
+    elif 'favorite song' in command:
+        voiceLine = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\favSong.mp4")
+        voiceLine.play()
+        time.sleep(4)
+        pywhatkit.playonyt('https://www.youtube.com/watch?v=Lr0UOKd1dd0&ab_channel=AdventureTime-Topic')
+    elif 'stop' in command or 'clear' in command:
         os.system("taskkill /im chrome.exe /f")
         cycle()
     elif 'search' in command:
         search = command.replace('search ', '')
+        voiceLine = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\bmoFound.mp4")
+        voiceLine.play()
+        time.sleep(3)
         pywhatkit.search(search)
+        time.sleep(10)
         cycle()
     elif 'date' in command:
         date = strftime("%a, %d %b %Y")  # gets weekday, Day, month, and year
-        talk("Today's Date is " + date)
+        voiceLine = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\date.mp4")
+        voiceLine.play()
+        time.sleep(2)
+        talk(date)
         cycle()
     elif 'timer' in command:
         timer = command.replace('set', '')
@@ -177,8 +202,11 @@ def run_alexa():
         timer = timer.replace('to', '')
         holder = timer
 
-        print("Timer is set to " + holder)
-        talk("Timer is set to " + holder)
+        # print("Timer is set to " + holder)
+        voiceLine = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\tMinus.mp4")
+        voiceLine.play()
+        time.sleep(3.5)
+        talk(holder)
 
         seconds = holder.replace('hours', '')
         seconds = seconds.replace('hour', '')
@@ -231,24 +259,56 @@ def run_alexa():
         print(total)
 
         def sctn():
-            talk("BEEP BEEP BEEP.  Time is up")
+            voiceLine = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\beep.mp4")
+            voiceLine.play()
+            time.sleep(3)
 
         S = th.Timer(total, sctn)
         S.start()
         cycle()
     elif 'time' in command:
         curtime = datetime.datetime.now().strftime('%I:%M %p')  # use H instead of I for 24 hr time
-        talk('Current time is ' + curtime)
-        print(curtime)
+        voiceLine = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\curTime.mp4")
+        voiceLine.play()
+        time.sleep(2)
+        talk(curtime)
+        #print(curtime)
         # run_alexa()
         cycle()
+    elif 'your name' in command:
+        voiceLine = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\beMore.mp4")
+        voiceLine.play()
+        time.sleep(3)
+        cycle()
+    elif 'fist bump' in command:
+        voiceLine = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\fistBump.mp4")
+        voiceLine.play()
+        time.sleep(3)
+        cycle()
+    elif 'goodbye' in command or 'goodnight' in command or 'shutdown' in command or 'sleep' in command:
+        voiceLine = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\batteryLow.mp4")
+        voiceLine.play()
+        time.sleep(3)
+        os.system("shutdown /s /t 1")
     elif 'what is' or 'who is' or "what are" or "who are" in command:
         info = wikipedia.summary(command)
-        print(command)
-        print(info)
+        if 'is' in command:
+            command = command.replace('is', '')
+        if 'are' in command:
+            command = command.replace('are', '')
+        if 'who' in command:
+            command = command.replace('who', '')
+        if 'what' in command:
+            command = command.replace('what', '')
+        # print(command)
+        # print(info)
+        voiceLine = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\calcTrim.mp4")
+        voiceLine.play()
+        time.sleep(3)
+        movie.play()
         talk(info)
-        # run_alexa()
         cycle()
+        # run_alexa()
     # elif 'tell me a joke' in command:
     #     talk(pyjokes.get_joke())
     # try:
@@ -287,6 +347,8 @@ def run_alexa():
 
 #     main()
 
+
+
 def cycle():
     # FOR BUTTON (CONTROL + C)
     # try:
@@ -302,15 +364,19 @@ def cycle():
     while True:
         import time
         movie.play()
-        for i in range(15):
-            time.sleep(3)
-            run_alexa()
+        # for i in range(15):
+        #     time.sleep(3)
+        #     run_alexa()
+        run_alexa()
        
-            
-        
-        
-            
-        
 
-
+time.sleep(3)
+voiceLine = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\expecting.mp4")
+voiceLine.play()
+time.sleep(4)           
 cycle()
+
+
+
+
+
