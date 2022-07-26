@@ -35,3 +35,7 @@ Idle BMO Animation:  IdleResize.mp4
 "Today's Date is" (Today's Date):  date.mp4
 
 "Current time is" (Current Time):  curTime.mp4
+
+"Battery Low, Shutdowwwwwwwn":   batteryLow.mp4
+
+"Wlecome friends, I've been expecting you":  expecting.mp4
