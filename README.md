@@ -47,6 +47,7 @@ Photo  | Description
 
 ### Painting BMO: ###
 ![BmoColored](https://user-images.githubusercontent.com/90429575/182505025-362b0fb7-4f44-42fe-ae6f-9883c1a7a107.jpg)
+
 (See progress log 12 for more)
 
 
