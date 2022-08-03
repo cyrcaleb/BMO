@@ -1,0 +1,21 @@
+#Project Log Day 12  8/2/2022
+
+Been a little over a week since my last project log.
+
+Since then I have ordered what should be the final circuit boards and components I need for this project.  The only other thing I might need is a soldering pen to put 
+some metal inserts in.
+
+As of today I have just finished painting BMO.  I had to buy primer, varnish and three different colors of paint for the body, arms, and legs.  I also used some of my 
+sisters old acrylic paint to do the buttons. 
+
+Im happy with all of them besides the green button.  I think I will go to the store and get a neon colored paint and redo the button because I think it is too close 
+to the base color of BMO.
+
+Besides the red, blue, yellow, and green button, I used black paint to do BMO's side decals.  After sifting through several fonts I landed on poppins font which was a
+near perfect match.  I basically just printed it out, cut it out, and traced it to just finally paint over the area.  It wasn't perfect by any means but I've come to 
+realize all the mistakes, or "happy little accidents", I've come across really just make BMO feel more personalized and give it character.  It feel more hand made.
+
+After fixing the green button, the only things I can work on until then would be getting the program to run on the raspberry pi, figuring out servos, and figuring out 
+speakers.  
+
+After that I just have to install and i'd be done.
