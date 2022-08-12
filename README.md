@@ -51,6 +51,9 @@ Photo  | Description
 (See progress log 12 for more)
 
 ### Servo Success: ###
+#### Video: ####
 https://user-images.githubusercontent.com/90429575/184453879-8f52dd25-d5db-4272-9cc9-ad4586b49681.mov
+![ServoSetup](https://user-images.githubusercontent.com/90429575/184454332-d221a618-b65c-4009-bd2c-7caaa0f38a4a.jpg)
+
 (See progress log 13 for more)
 
