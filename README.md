@@ -43,7 +43,7 @@ Using BandLab to edit the original BMO audio sent to me by the fiver artist.  Se
 ### LCD Screen Success: ### 
 Photo  | Description
 | :---: | :---:
-![20220720_223912](https://user-images.githubusercontent.com/90429575/180118750-d78b3a3b-c2bc-407e-ae01-88d4ba0cd31e.jpg)  | BMO's mp4 videos playing on the LCD screen. (See progress log 10 for more)
+![20220720_223912](https://user-images.githubusercontent.com/90429575/180118750-d78b3a3b-c2bc-407e-ae01-88d4ba0cd31e.jpg)  | BMO's mp4 videos playing on the LCD screen. (See progress log 10 for more) (See mp4 files in "MP3 & MP4 Files" folder for all face and audio animations)
 
 ### Painting BMO: ###
 ![BmoColored](https://user-images.githubusercontent.com/90429575/182505025-362b0fb7-4f44-42fe-ae6f-9883c1a7a107.jpg)
