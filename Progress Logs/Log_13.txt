@@ -1,0 +1,13 @@
+#Project Log Day 12  8/12/2022
+
+Had to wait for my expansion board for the pi to come in so it has been a little over a week since the last log.  
+
+I have made some great progress. I have completely finished the spray painting and varnish for BMO's parts.  I ended up changin the color of the button so it was more 
+color accurate to the original and fixing the side decals so that they were more clean.
+
+Unfortunately, I am still waiting on some of the front panel PCB's (printed circuit boards) for BMO.  But I did recieve the pca9685 i2c chip, which is an expansion board 
+that goes directly on top of the pi.  It allows me to control multiple servos, connect the pi to the speakers, and connect a mic to the pi.
+
+Today I managed to setup the servos to the pi/expansion board, and create a program to automatically move the servos on bootup!
+
+Once again I am extremely happy with the result and just need to wait for more parts so I can finish the project.
