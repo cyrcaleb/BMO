@@ -50,4 +50,7 @@ Photo  | Description
 
 (See progress log 12 for more)
 
+### Servo Success: ###
+https://user-images.githubusercontent.com/90429575/184453879-8f52dd25-d5db-4272-9cc9-ad4586b49681.mov
+(See progress log 13 for more)
 
