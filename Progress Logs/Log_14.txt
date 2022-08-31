@@ -1,0 +1,20 @@
+#Project Log Day 14  8/30/2022
+
+Came back from my trip and the parts I ordered finally came in.  I think at this point I am done with parts.
+
+First part of assembly was to put in the metal inserts for the screws which was actually quite difficult.  I didnt have a soldering pen so I instead used a hammer which
+made it difficult to reach certain positions.
+
+Next, I put in the screen and gorilla glued the driver board to the back along with some styrofoam so it would actually stick.
+
+Next I put in the front panel printed circuit boards.  They are currently setup so that they do take input and it goes directly to raspberri pi.  However since the screen
+is runnign from my pc they currently have no use.  In the future I might try to run everything on the pi and perhaps put an 8-bit game on BMO.  But only if it can handle 
+it.
+
+After installing the pi I installed the servos.  These were pretty straight forward however at this current moment the arms keep falling off so I am going to have to 
+gorilla glue them on.  
+
+Then I installed the speakers which do connect to the raspberry pi.  Once again I tested them and they are functional. But since I want BMO to be apart of the PC they are
+not in use.  
+
+Lastly I installed the raspberri pi with the pi hat on top and connected all the wires from the speakers, servos, and front panel pcb's to it.  
