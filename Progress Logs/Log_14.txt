@@ -14,7 +14,8 @@ it.
 After installing the pi I installed the servos.  These were pretty straight forward however at this current moment the arms keep falling off so I am going to have to 
 gorilla glue them on.  
 
-Then I installed the speakers which do connect to the raspberry pi.  Once again I tested them and they are functional. But since I want BMO to be apart of the PC they are
-not in use.  
+Then I installed the speakers  and usb ports which do connect to the raspberry pi.  Once again I tested them and they are functional. But since I want BMO to be apart of the PC they are not in use.  
 
 Lastly I installed the raspberri pi with the pi hat on top and connected all the wires from the speakers, servos, and front panel pcb's to it.  
+
+After attempting to make everything work, it appears my servos need to be fixed as they were moving to much and made the arms fall off.  
