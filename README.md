@@ -69,4 +69,4 @@ Installing adafruit packages for pwm (pulse width modulation) hat/expansion boar
 
 ### Performance Videos: ###
 [https://www.instagram.com/reel/Ch-KkUgsFSq/?utm_source=ig_web_copy_link](url)  
-[https://www.instagram.com/reel/Ch-MUIesuGn/?utm_source=ig_web_copy_link](url)
+
