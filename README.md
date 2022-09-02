@@ -59,6 +59,7 @@ Installing adafruit packages for pwm (pulse width modulation) hat/expansion boar
 
 ### Building BMO ###
 ![BMO_Internals](https://user-images.githubusercontent.com/90429575/187567919-e2fc06ee-8488-4cec-b1cf-bca0ffd3e1b9.jpg)
+
 (See progress log 14 for more)
 
 ### Final Product: ###
