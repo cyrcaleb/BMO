@@ -1,0 +1,12 @@
+#Project Log Day 15 9/2/2022
+
+Today I am officially finished with the BMO project.  I managed to finish installing all the parts and managed to secure BMO's arms in using epoxy since super glue wasn't
+quite strong enough.  
+
+I spent a few days failing to stick the arms onto BMO correctly and I even had to change the coding for BMO's arms since I originally had the servos moving the same way.
+But since the servos are actually facing different directions I had to reverse the entirety of the coding for one of the servos.
+
+I have posted performance video's at the bottom of the readme which I have posted on my instagram.  Typically I would pour out my final thoughts on the project here 
+but since this is the final project log I will just do so at the end of the readme.
+
+If you are reading this.  Thank you!
