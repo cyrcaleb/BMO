@@ -68,8 +68,7 @@ movie = Movie_MP4(r"C:\Users\cyrca\PycharmProjects\bmo1.3\IdleResize.mp4")
 ########
 
 
-# filename = 'GOFjoji.wav'  # Assign file name
-# winsound.PlaySound(filename, winsound.SND_FILENAME) #play sound
+
 
 
 # prints out all stereo mixers  (currently index 4 for headset speakers)
@@ -185,7 +184,7 @@ def run_alexa():
         voiceLine.play()
         time.sleep(3)
         pywhatkit.search(search)
-        time.sleep(10)
+        #time.sleep(10)
         cycle()
     elif 'date' in command:
         date = strftime("%a, %d %b %Y")  # gets weekday, Day, month, and year
