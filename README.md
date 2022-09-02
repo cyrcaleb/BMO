@@ -66,3 +66,7 @@ Installing adafruit packages for pwm (pulse width modulation) hat/expansion boar
 ![BMO_Complete_1](https://user-images.githubusercontent.com/90429575/188217831-50b4a36e-f073-4aac-b6fa-9e184b9dbbeb.jpg)
 ![BMO_Complete_2](https://user-images.githubusercontent.com/90429575/188217834-76f31374-8197-41a1-9216-ca93c189d04a.jpg)
 (See progress log 15 for more)
+
+### Performance Videos: ###
+[https://www.instagram.com/reel/Ch-KkUgsFSq/?utm_source=ig_web_copy_link](url)  
+[https://www.instagram.com/reel/Ch-MUIesuGn/?utm_source=ig_web_copy_link](url)
