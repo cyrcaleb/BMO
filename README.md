@@ -6,7 +6,7 @@ The main goal of this project is to first create a program using python to essen
 - The knowledge to actually create a program to do all these things effectively
 
 I will also be putting this device inside a 3D Printed robot called BMO from adventure time:
-- The robot will have seros to control the arms
+- The robot will have servos to control the arms
 - The robot BMO will also have a 8-inch LCD screen that will be able to present different BMO facial features and even be able to play little short snippets of video
 
 Something I also want to add to this project is BMO's voice instead of the generic google output voice. In order to do this I will have to program voice cloning software and gather a library of BMO's voice to be analyze.
@@ -27,7 +27,7 @@ Voice Cloning was super interesting and hopefully I will be able to implement it
 
 ### Hardware: ###
 ![hardware1](https://user-images.githubusercontent.com/90429575/178997726-8ee9fed6-fdaf-4b4c-8bc3-2d47864592c9.jpg)
-A picture of speakers, one of the servos, a raspberrry pi, and the 8 inch lcd screen that connects to the pi.  I put the pi in its case for now to reduce risk of damage.
+A picture of speakers, one of the servos, a raspberrry pi, a driver board, and the 8 inch lcd screen.  I put the pi in its case for now to reduce risk of damage.
 
 ### Active Animation: ###
 ![BMO_animation_process](https://user-images.githubusercontent.com/90429575/179384940-0c90b462-60b4-4351-a3fc-e406c39fa130.png)
